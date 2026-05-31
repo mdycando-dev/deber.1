@@ -1,0 +1,8 @@
+texto = input("Escriba una palabra o texto corto: ")
+
+contador = 0
+
+for _ in texto:
+    contador += 1
+
+print("Cantidad de caracteres:", contador)
